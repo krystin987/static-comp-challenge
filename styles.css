@@ -1,0 +1,175 @@
+body {
+background-color: #2A3341;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.goldblum {
+  height: 100vh;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  height: 33.3%;
+
+}
+
+.boxes1-8 {
+  width: 1055px;
+  float: left;
+}
+
+.container2 {
+  float: right;
+  width: 25px;
+}
+
+.box1 {
+  display: flex;
+  background-color: #F8FFE5;
+  width: 66.6%;
+  font-family: sans-serif;
+}
+
+.box2 {
+ background-color: #2A3341;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.box3 {
+  background-color: #06D6A0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  background-color: #1B9AAA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box5 {
+  background-color: #F8FFE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box6 {
+  background-color: #FFD046;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box7 {
+  background-color: #06D6A0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box8 {
+  background-color: #FFD046;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 26px;
+  margin: 50px;
+}
+
+p {
+  text-align: justify;
+  font-size: 17px;
+}
+
+
+@media screen and (max-width: 1080px){
+
+.box {
+    width: 300px;
+    height: 300px;
+  }
+
+.box1 {
+  width: 600px;
+  height: 300px;
+}
+
+@media screen and (max-width: 950px){
+
+.box{
+    height: 200px;
+    width: 200px;
+  }
+
+.box1 {
+  height: 200px;
+  width: 400px;
+}
+
+@media screen and (max-width: 800px){
+
+.box{
+    height: 200px;
+    width: 200px;
+  }
+
+.box1 {
+  height: 200px;
+  width: 400px;
+}
+
+@media screen and (max-width: 600px){
+
+.box{
+    height: 200px;
+    width: 200px;
+  }
+
+.box1 {
+  height: 200px;
+  width: 400px;
+}
+
+@media screen and (max-width: 500px){
+
+.box{
+    height: 150px;
+    width: 150px;
+  }
+
+.box1 {
+  height: 150px;
+  width: 300px;
+}
+
+ .container2 {
+   display: none;
+ }
+
+
+
+
+/*#2A3341
+#F8FFE5
+#06D6A0
+#FFD046
+#1B9AAA*/
+
+/*#2A3341
+#A6D49F
+#9CB380
+#FFD046
+#C73E1D*/
