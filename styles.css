@@ -30,6 +30,7 @@ button {
   justify-content: center;
   align-items: center;
   width: 33.3%;
+  flex-grow: 1;
 }
 
 .boxes1-8 {
@@ -41,6 +42,7 @@ button {
 .container2 {
  display: flex;
  width: 33.3%;
+ flex-grow: 1;
 }
 
 .btn {
@@ -100,6 +102,78 @@ color: black;
 }*/
 
 
+@media screen and (max-width: 1280px) {
+  .container2 img {
+    width: 100vw;
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 33%
+  }
+
+  .boxes1-8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 66%;
+  }
+
+  .box1 {
+  width: 66%;
+ }
+}
+
+@media screen and (max-width: 800px) {
+  .container2 {
+    display: none;
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%
+  }
+
+  .boxes1-8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .box1 {
+  width: 66.6%;
+ }
+}
+
+@media screen and (max-width: 570px) {
+  .container2 {
+    display: none;
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%
+  }
+
+  .boxes1-8 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .box1 {
+  width: 66.6%;
+ }
+}
+
 @media screen and (max-width: 320px){
   .goldblum {
     display: none;
@@ -109,7 +183,6 @@ color: black;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
     width: 100%;
     height: 50%;
   }
