@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+.boxes1-8 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+}
+
+.container2 {
+  border: 1px solid green;
+  width: 40%;
+  float: right;
+}
+
+.box1 {
+  width:66.6%;
+  background-color: #F8FFE5;
+}
+
+.box2 {
+ background-color: #2A3341;
+}
+
+.box3 {
+  background-color: #06D6A0;
+}
+
+.box4 {
+  background-color: #1B9AAA;
+}
+
+.box5 {
+  background-color: #F8FFE5;
+}
+
+.box6 {
+  background-color: #FFD046;
+}
+
+.box7 {
+  background-color: #06D6A0
+}
+
+.box8 {
+  background-color: #FFD046;
+}
+
+
+
+/*@media screen and (max-width: 380px) {
+  #resume-contact .image {
+    width: 70px;
+    height: 70px;
+  }
+}
+@media screen and (max-width: 570px) {
+  #content-section #resume-contact {
+    width: 100%;
+  }
+  #content-section #profile {
+    width: 100%;
+  }
+  #profile .inner-content {
+    width: 20%;
+  }
+  #content-section div {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #photo-section {
+    display: none;
+  }
+  #content-section {
+    width: 100%;
+  }
+  #resume-contact .image {
+    display: block;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #content-section img {
+    width: 60px;
+    height: 60px;
+  }
+  #resume-contact header h1 {
+    width: 230px;
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 0.8em;
+  }
+}*/
+
+
+
+/*#2A3341
+#F8FFE5
+#06D6A0
+#FFD046
+#1B9AAA*/
+
+/*#2A3341
+#A6D49F
+#9CB380
+#FFD046
+#C73E1D*/
